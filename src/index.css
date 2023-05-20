@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /*escala violetas*/
+    --violeta1: #8e2c7b;
+    --violeta2: #9f3987;
+    --violeta3: #b05195;
+    --violeta4: #c679ac;
+    --violeta5: #ba84a9;
+    --violeta6: #d999bf;
+
+    /*escala azules*/
+    --azul1: #5d438f;
+    --azul2: #635299;
+    --azul3: #7c6aa8;
+
+    /*escala rojos*/
+    --rojo1: #e2257d;
+    --rojo2: #d0086d;
+    --rojo3: #e6458f;
+
+    /*otros*/
+    --blanco: #ffffff;
+    --negro: #000000;
+
+    /*fuentes*/
+    --caveat: 'Caveat', cursive;;
+}
+
+body{
+    font-family: var(--caveat);
+}
