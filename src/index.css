@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--violeta6);
+}
 :root{
     /*escala violetas*/
     --violeta1: #8e2c7b;
@@ -10,7 +15,7 @@
     --violeta3: #b05195;
     --violeta4: #c679ac;
     --violeta5: #ba84a9;
-    --violeta6: #d999bf;
+    --violeta6: #dfb8cf;
 
     /*escala azules*/
     --azul1: #5d438f;

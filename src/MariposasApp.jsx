@@ -1,11 +1,12 @@
-import { Navbar } from "./components/ui"
+import { Header, Navbar } from "./components/ui"
 
 
 export const MariposasApp = () => {
   return (
     <>
+    <Header/>
     <Navbar/>
-    <h1>Mariposas App</h1>
+
     </>
     
   )
