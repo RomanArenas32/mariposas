@@ -5,10 +5,12 @@
     background-image: url('../../assets/imagenes/imgMariposa1.jpg');
     height: 200px;
     background-position: center;
+    background-size: cover;
+
 }
 h1{
     color: var(--rojo1);
-    padding-top: 9rem;
+    padding-top: 8rem;
     text-decoration:underline;
 }
 /*HEADER*/
