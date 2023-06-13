@@ -2,6 +2,8 @@
 
 export const Mariposas = () => {
   return (
-    <div>Mariposas</div>
+  <>
+    <h1>MARIPOSASAPP</h1>
+    </>
   )
 }
