@@ -5,6 +5,6 @@ import { Mariposas } from "./Mariposas.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Mariposas />
+    <Mariposas/>
   </React.StrictMode>
 );

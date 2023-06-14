@@ -1,9 +1,7 @@
-
-
 export const Mariposas = () => {
   return (
-  <>
-    <h1>MARIPOSASAPP</h1>
+    <>
+      <h1>MARIPOSAS APP</h1>
     </>
-  )
-}
+  );
+};
