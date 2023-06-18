@@ -1,10 +1,23 @@
-.portada-titulo{
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color2);
+    padding: 1rem;
+  }
+  
+  .portada-titulo {
     font-family: var(--dancing);
     font-weight: bolder;
-    padding: 0.6rem;
     text-align: center;
     color: var(--blanco);
-}
-.portada{
-    background-color: var(--color2);
-}
+    flex-grow: 1;
+    margin: 0;
+  }
+  
+  .portada-menu {
+    display: flex;
+    align-items: center;
+    color: var(--blanco);
+  }
+  
