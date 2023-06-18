@@ -5,18 +5,34 @@
 }
 
 :root {
---color1: #1733B8;  
---color2: #470069;  
---color3: #7F03BB;
---color4: #BB58FF;
---blanco: white;
---negro: black;       
---poppins: 'Poppins', sans-serif;
---dancing: 'Dancing Script', cursive;
+    --color1: #1733B8;
+    --color2: #470069;
+    --color3: #7F03BB;
+    --color4: #BB58FF;
+    --blanco: white;
+    --negro: black;
+    --poppins: 'Poppins', sans-serif;
+    --dancing: 'Dancing Script', cursive;
 }
 
-
-
-
-
-
+/*
+ Estilos para celulares pequeños 
+@media (max-width: 480px) {
+    Agrega tus estilos aquí 
+  }
+  
+   Estilos para celulares medianos 
+  @media (min-width: 481px) and (max-width: 767px) {
+     Agrega tus estilos aquí 
+  }
+  
+   Estilos para celulares grandes 
+  @media (min-width: 768px) and (max-width: 1023px) {
+     Agrega tus estilos aquí 
+  }
+  
+   Estilos para phablets 
+  @media (min-width: 1024px) and (max-width: 1199px) {
+     Agrega tus estilos aquí 
+  }
+  */
