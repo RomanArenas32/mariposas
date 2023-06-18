@@ -1,0 +1,10 @@
+.portada-titulo{
+    font-family: var(--dancing);
+    font-weight: bolder;
+    padding: 0.6rem;
+    text-align: center;
+    color: var(--blanco);
+}
+.portada{
+    background-color: var(--color2);
+}
