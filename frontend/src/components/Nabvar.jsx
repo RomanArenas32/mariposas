@@ -1,16 +1,16 @@
 import '../styles/components.css';
+import { Link } from "react-router-dom";
+
 
 export const Nabvar = () => {
   return (
-    <div className='nabvar'>
-    
-        <ul>
 
-            <li>Noticias</li>
-            <li>Actualidad</li>
-            <li>Moda</li>
-        
-        </ul>
+    <div className="nabvar">
+      <ul>
+        <li>
+          <Link to="/contacto">OPCION 1</Link>
+        </li>
+      </ul>
     </div>
-  )
-}
+  );
+};
