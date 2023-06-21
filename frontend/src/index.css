@@ -5,10 +5,12 @@
 }
 
 :root {
-    --color1: #1733B8;
-    --color2: #470069;
-    --color3: #7F03BB;
-    --color4: #BB58FF;
+    --color1: #190019;
+    --color2: #2B124C;
+    --color3: #522B5B;
+    --color4: #854F6C;
+    --color5: #DFB6B2;
+    --color6: #FBE4D8;
     --blanco: white;
     --negro: black;
     --poppins: 'Poppins', sans-serif;

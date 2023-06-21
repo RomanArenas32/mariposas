@@ -1,7 +1,12 @@
-
+import { Route,  Routes } from "react-router-dom";
+import { Contacto, Home } from "./pages/";
 
 export const MariposasRouter = () => {
   return (
-    <div>MariposasRouter</div>
-  )
-}
+    <Routes>
+      <Route path="/contacto" element={<Contacto/>}/>
+      <Route path="/home" element={<Home/>}/>
+      <Route path="/*" element={<Home/>}/>
+    </Routes>
+  );
+};
