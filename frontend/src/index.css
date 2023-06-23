@@ -16,6 +16,9 @@
     --poppins: 'Poppins', sans-serif;
     --dancing: 'Dancing Script', cursive;
 }
+body{
+   background-color: var(--color6);
+}
 
 /*
  Estilos para celulares pequeños 

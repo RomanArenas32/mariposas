@@ -14,6 +14,14 @@ export const Portada = () => {
 
   return (
     <div>
+      <div className="portada-busqueda">
+        <div className="portada-busqueda_input">
+          <input type="text" placeholder="Busca una noticia"/>
+          <label htmlFor="">Busqueda</label>
+        </div>
+        <div>Ingresar</div>
+      </div>
+      <hr />
       <div className="portada">
         <h1 className="portada-titulo">Mariposas</h1>
         <div className="portada-menu" onClick={showNavbar}>

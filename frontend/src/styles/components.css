@@ -1,28 +1,45 @@
+/*INICIO ESTILOS DE LA BARRA DE NAVEGACION */
+
 .nabvar {
-    position: absolute;
-    padding-top: 70px;
-    background-color: var(--color3);
-    width: 100vw;
-    height: 50%;
-    animation-name: slideIn;
-    animation-duration: 1.2s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
+  position: absolute;
+  padding-top: 80px;
+  background-color: var(--color3);
+  width: 100vw;
+  height: 50%;
+  animation-name: slideIn;
+  animation-duration: 1.2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  color: var(--blanco);
+  font-family: var(--poppins);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
     opacity: 0;
-    text-align: center;
-    align-items: center;
-    color: var(--blanco);
-    font-family: var(--poppins);
   }
-  
-  @keyframes slideIn {
-    0% {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
+}
+
+.nabvar-enlace {
+  color: var(--color6);
+}
+.nabvar-enlace:hover {
+  cursor: pointer;
+}
+
+.nabvar-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+/*FINAL ESTILOS DE LA BARRA DE NAVEGACION */
